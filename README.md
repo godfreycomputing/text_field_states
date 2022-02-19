@@ -16,7 +16,7 @@ This has dependencies on freezed and flutter_riverpod.
 
 ## Getting started
 
-import 'package:generic_text_field_states/text_field_states.dart'
+import 'package:generic_text_field_states/generic_text_field_states.dart';
 
 ## Usage
 
