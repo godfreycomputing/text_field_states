@@ -1,7 +1,8 @@
 name: generic_text_field_states
 description: Generic text field states for use with creating a single text field widget for the whole app.
-version: 1.0.0
+version: 1.0.2
 repository: https://github.com/godfreycomputing/text_field_states
+issues: https://github.com/godfreycopmuting/text_field_states/issues
 environment:
   sdk: '>=2.15.1 <3.0.0'
 

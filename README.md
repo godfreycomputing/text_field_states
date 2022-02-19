@@ -20,5 +20,5 @@ import 'package:generic_text_field_states/generic_text_field_states.dart';
 
 ## Usage
 
-See eample
+See example
 
