@@ -19,5 +19,4 @@ dependencies:
   flutter_riverpod: ^1.0.3
   freezed_annotation: ^1.1.0
   intl: ^0.17.0
-  validations: 
-    path: ./../validations
+  simple_validations: 1.0.0

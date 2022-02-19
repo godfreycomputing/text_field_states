@@ -1,7 +1,7 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:intl/intl.dart';
-import 'package:validations/validations.dart';
+import 'package:simple_validations/simple_validations.dart';
 
 import 'field_types.dart';
 
