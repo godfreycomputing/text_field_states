@@ -1,7 +1,6 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:text_field_states/src/field_types.dart';
-import 'package:text_field_states/text_field_states.dart';
 import 'package:flutter/material.dart';
+import 'package:generic_text_field_states/text_field_states.dart';
 
 void main() {
   runApp(MainApp());
