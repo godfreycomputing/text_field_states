@@ -66,6 +66,7 @@ class TextFieldStateProvider extends StateNotifier<TextFieldState> {
     final message = email.isEmail();
     if (message != null) {
       state = TextFieldState.invalid(message);
+      return;
     }
 
     state = TextFieldState.valid(email);
