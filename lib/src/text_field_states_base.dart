@@ -17,13 +17,13 @@ class TextFieldStateProvider extends StateNotifier<TextFieldState> {
     String? valueName,
   }) {
     fieldType.when(
-      email: _emailChanged(value),
-      password: _passwordChanged(value),
-      confirmPassword:
+      email: () => _emailChanged(value),
+      password: () => _passwordChanged(value),
+      confirmPassword: () =>
           _confirmPasswordChanged(password: value, confirmPassword: value),
-      date: _dateChanged(date: value, valueName: valueName),
-      num: _numberChanged(number: value, valueName: valueName),
-      string: _textChanged(value: value, valueName: valueName),
+      date: () => _dateChanged(date: value, valueName: valueName),
+      num: () => _numberChanged(number: value, valueName: valueName),
+      string: () => _textChanged(value: value, valueName: valueName),
     );
   }
 
